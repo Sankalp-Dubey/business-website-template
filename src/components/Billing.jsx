@@ -6,7 +6,7 @@ import Card from './Card'
 const Billing = () => {
   return (
     <section id='product' className={layout.sectionReverse}>
-    <div className='flex justify-evenly w-full items-center gap-3'>
+    <div className='flex flex-col md:flex-row justify-evenly w-full items-center gap-3 '>
     <Card title="Web App Development
 " description="Our Custom Web Development Services Include Both Front-End And Back-End Development. Whether It Is Enhancing An Existing App Or Architecting An Enterprise App, Our Developers Are Up For The Challenge." 
   source="https://www.freeiconspng.com/uploads/laptop-icon-png-25.png"
