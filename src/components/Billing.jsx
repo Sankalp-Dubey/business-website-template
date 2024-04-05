@@ -1,11 +1,27 @@
 import React from 'react'
 import { apple, bill, google } from '../assets'
 import styles, { layout } from '../style'
+import Card from './Card'
 
 const Billing = () => {
   return (
     <section id='product' className={layout.sectionReverse}>
-      <div className={layout.sectionImgReverse}>
+    <div className='flex justify-evenly w-full items-center gap-3'>
+    <Card title="Web App Development
+" description="Our Custom Web Development Services Include Both Front-End And Back-End Development. Whether It Is Enhancing An Existing App Or Architecting An Enterprise App, Our Developers Are Up For The Challenge." 
+  source="https://www.freeiconspng.com/uploads/laptop-icon-png-25.png"
+/>
+    <Card title="Mobile App Development" description="We Have Expertise In Creating Multi-Platform Mobile App Solutions For Both Android And IOS Devices. Using PhoneGap, Xamarin, And React Native, We Offer Custom Mobile App That Runs Smoothly On Multiple Platforms."
+      source="https://www.freeiconspng.com/uploads/mobile-icon-png-cool--mobitrends-1.png"
+    />
+    <Card title="Digital Marketing
+" description="The Digital Marketing Services That We Provide Have Their Own Set Of Charms. By Taking Our Digital Marketing Services, Our Clients Will Be Able To Increase Visibility And Engage With Their Customers At The Online Platform."
+  source="https://cdn.iconscout.com/icon/premium/png-512-thumb/digital-marketing-1599510-1356057.png"
+/>
+
+    </div>
+
+      {/* <div className={layout.sectionImgReverse}>
         <img
           src={bill}
           alt='billing'
@@ -33,7 +49,7 @@ const Billing = () => {
             className='w-[128px] h-[42px] object-contain cursor-pointer'
           />
         </div>
-      </div>  
+      </div>   */}
     </section>
   )
 }
