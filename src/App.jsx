@@ -32,7 +32,7 @@ const App = () => {
           {/* <Business/> */}
           <Billing/>
           <CardDeal/>
-          <CTA/>
+         
 
           {/* <Testimonials/> */}
           <Clients/>
