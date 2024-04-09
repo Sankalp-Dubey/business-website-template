@@ -17,7 +17,7 @@ const Clients = () => {
     //     ))}
     //   </div>
     // </section>
-     <div id="clients" class="h-screen bg-gray-800">
+     <div id="clients" class=" bg-gray-800">
     <div class="pt-10 md:pt-20">
         <div class="p-4 md:p-8">
             <h1 class="text-white text-center pb-8 font-light text-4xl md:text-5xl lg:text-6xl">Contact Us</h1>

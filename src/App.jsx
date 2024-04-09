@@ -34,7 +34,7 @@ const App = () => {
           <CardDeal/>
          
 
-          {/* <Testimonials/> */}
+           <Testimonials/> 
           <Clients/>
           <Footer/>     
         </div>
